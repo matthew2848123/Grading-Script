@@ -10,7 +10,7 @@ def remove_files(file_directory,names,assignment_name):
                 print("include")
             else:
                 path = assignment_name + "-" + str(a[3])
-                print(path)
+                print("removed" + path)
                 shutil.rmtree(path)
         except:
             #print("invalid file" + str(a))
